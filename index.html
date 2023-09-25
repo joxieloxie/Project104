@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <ml5 class="js">https://teachablemachine.withgoogle.com/models/mURgJ8A45/model.json</ml5>
+    <title>Face Recognition App</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <h1>Face Recognition App</h1>
+    <hr>
+    <b><button id="mother" class="btn btn-primary">Mother</button></b>
+    <br>
+    <br>
+    <b><button id="father" class="btn btn-primary">Father</button></b>
+    <br>
+    <br>
+    <b><button id="brother1" class="btn btn-primary">Brother #1</button></b>
+    <br>
+    <br>
+    <b><button id="brother2" class="btn btn primary">Brother #2</button></b>
+    <hr>
+    <h4>Your Webcam:</h4>
+    <div id="camera"></div>
+    
+    <br>
+        <button onclick="webcam.snap();" class="btn btn-info">Take Picture</button>        <hr>
+        <h2>Accuracy:</h2>
+        <h2>Mother:
+            <br>
+            Father:
+            <br>
+            Brother #1:
+            <br>
+            Brother #2:
+        </h2>
+    </div>
+</body>
+</html>
